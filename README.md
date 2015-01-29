@@ -1,4 +1,4 @@
-#yoloFlight
+\#yoloflight
 ===
 
 Cheap Flight Suggester, that would suggest you weekend trips every week based on the cheapest deals it finds.
