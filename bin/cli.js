@@ -3,9 +3,6 @@ var goyolo = require('../lib')
 
 if (args instanceof Error) {
   console.error(args.message)
-  return
+} else {
+  goyolo()
 }
-
-console.log(args)
-goyolo()
-  
