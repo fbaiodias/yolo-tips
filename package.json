@@ -12,8 +12,14 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
+    "humps": "^0.6.0",
+    "lodash.clone": "^3.0.3",
+    "lodash.curry": "^3.0.2",
     "lodash.flatten": "^3.0.2",
+    "lodash.merge": "^3.3.2",
+    "lodash.pluck": "^3.1.2",
     "lodash.range": "^3.0.1",
+    "lodash.sortby": "^3.1.5",
     "moment": "^2.9.0",
     "skyscanner": "https://github.com/xicombd/node-skyscanner/tarball/master",
     "standard": "^3.0.0-beta3"
