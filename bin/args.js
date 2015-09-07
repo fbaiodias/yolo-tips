@@ -24,6 +24,12 @@ var definition = {
     alias: 'destination',
     type: 'string',
     default: 'everywhere'
+  },
+  m: {
+    description: 'max price',
+    alias: 'max',
+    type: 'number',
+    default: 100
   }
 }
 

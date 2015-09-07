@@ -7,7 +7,8 @@ if (args instanceof Error) {
   var options = {
     weeks: args.weeks,
     origin: args.origin.toUpperCase(),
-    destination: args.destination.toUpperCase()
+    destination: args.destination.toUpperCase(),
+    max: args.max
   }
   goyolo(options, function (err, data) {
     if (err) {
