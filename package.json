@@ -1,17 +1,17 @@
 {
-  "name": "yoloflight",
+  "name": "goyolo",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "standard",
-    "start": "NODE_PATH=. node .",
-    "mon": "NODE_PATH=. nodemon ."
+    "start": "node bin/cli.js"
   },
   "author": "Francisco Dias <francisco@baiodias.com> (http://franciscodias.net/)",
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
+    "bossy": "^2.0.0",
     "humps": "^0.6.0",
     "lodash.clone": "^3.0.3",
     "lodash.curry": "^3.0.2",
@@ -21,7 +21,9 @@
     "lodash.range": "^3.0.1",
     "lodash.sortby": "^3.1.5",
     "moment": "^2.9.0",
-    "skyscanner": "https://github.com/xicombd/node-skyscanner/tarball/master",
+    "skyscanner": "https://github.com/xicombd/node-skyscanner/tarball/master"
+  },
+  "devDependencies": {
     "standard": "^3.0.0-beta3"
   }
 }
