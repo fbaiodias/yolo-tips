@@ -1,10 +1,12 @@
-var args = require('./args')
-var goyolo = require('../lib')
+'use strict'
+
+const args = require('./args')
+const goyolo = require('../lib')
 
 if (args instanceof Error) {
   console.error(args.message)
 } else {
-  var options = {
+  const options = {
     weeks: args.weeks,
     origin: args.origin.toUpperCase(),
     destination: args.destination.toUpperCase(),
