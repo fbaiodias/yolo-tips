@@ -1,6 +1,8 @@
-var bossy = require('bossy')
+'use strict'
 
-var definition = {
+const bossy = require('bossy')
+
+const definition = {
   c: {
     description: 'currency',
     alias: 'currency',
