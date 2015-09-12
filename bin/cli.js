@@ -16,6 +16,6 @@ if (args instanceof Error) {
     if (err) {
       throw err
     }
-    console.log(JSON.stringify(data, null, 2))
+    console.log(JSON.stringify(data[0], null, 2))
   })
 }
