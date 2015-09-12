@@ -18,8 +18,7 @@ const definition = {
   o: {
     description: 'origin',
     alias: 'origin',
-    type: 'string',
-    require: true
+    type: 'string'
   },
   d: {
     description: 'destination',
@@ -32,6 +31,11 @@ const definition = {
     alias: 'max',
     type: 'number',
     default: 100
+  },
+  s: {
+    description: 'seach airport id',
+    alias: 'search',
+    type: 'string'
   }
 }
 
