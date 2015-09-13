@@ -12,6 +12,7 @@
   "dependencies": {
     "async": "1.4.2",
     "bossy": "^2.0.0",
+    "eslint": "^1.4.1",
     "humps": "^0.6.0",
     "lodash.clone": "^3.0.3",
     "lodash.compact": "3.0.0",
