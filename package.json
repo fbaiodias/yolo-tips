@@ -1,10 +1,10 @@
 {
-  "name": "goyolo",
-  "version": "0.0.1",
-  "description": "",
+  "name": "yolo-tips",
+  "version": "0.1.0",
+  "description": "Cheap Flight Suggester, that suggests you weekend trips based on the cheapest deals it finds using SkyScanner.",
   "main": "lib/index.js",
   "bin": {
-    "goyolo": "./bin/cli.js"
+    "yolo-tips": "./bin/cli.js"
   },
   "scripts": {
     "test": "standard",
@@ -27,12 +27,28 @@
     "lodash.range": "^3.0.1",
     "lodash.sortby": "^3.1.5",
     "moment": "^2.9.0",
-    "skyscanner": "https://github.com/xicombd/node-skyscanner/tarball/master"
+    "skyscanner": "xicombd/node-skyscanner"
   },
   "devDependencies": {
     "standard": "^5.2.2"
   },
   "engines": {
     "node": ">=4.0.0"
-  }
+  },
+  "keywords": [
+    "yolo",
+    "tips",
+    "flights",
+    "skyscanner",
+    "travel",
+    "cheap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xicombd/yolo-tips.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xicombd/yolo-tips/issues"
+  },
+  "homepage": "https://github.com/xicombd/yolo-tips"
 }
