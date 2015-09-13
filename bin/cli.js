@@ -8,14 +8,16 @@ if (args instanceof Error) {
 } else {
   const options = {
     weeks: args.weeks,
-    origin: args.origin.toUpperCase(),
-    destination: args.destination.toUpperCase(),
-    max: args.max
+    origin: args.origin && args.origin.toUpperCase(),
+    destination: args.destination && args.destination.toUpperCase(),
+    max: args.max,
+    search: args.search
   }
   goyolo(options, function (err, data) {
     if (err) {
       throw err
     }
-    console.log(JSON.stringify(data[0], null, 2))
+
+    console.log(JSON.stringify(data, null, 2))
   })
 }
