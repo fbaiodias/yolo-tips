@@ -36,6 +36,12 @@ const definition = {
     description: 'seach airport id',
     alias: 'search',
     type: 'string'
+  },
+  i: {
+    description: 'ignore destination',
+    multiple: true,
+    alias: 'ignore',
+    type: 'string'
   }
 }
 
