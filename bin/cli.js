@@ -12,7 +12,7 @@ if (args instanceof Error) {
     destination: args.destination && args.destination.toUpperCase(),
     max: args.max,
     ignore: args.ignore,
-    search: args.search
+    term: args.term
   }
   goyolo(options, function (err, data) {
     if (err) {
