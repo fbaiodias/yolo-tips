@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "goyolo": "./bin/cli.js"
+  },
   "scripts": {
     "test": "standard",
     "start": "node bin/cli.js"
