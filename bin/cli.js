@@ -11,6 +11,7 @@ if (args instanceof Error) {
   const options = {
     weeks: args.weeks,
     origin: args.origin && args.origin.toUpperCase(),
+    currency: args.currency,
     destination: args.destination && args.destination.toUpperCase(),
     max: args.max,
     ignore: args.ignore,
