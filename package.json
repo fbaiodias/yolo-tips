@@ -1,14 +1,13 @@
 {
   "name": "yolo-tips",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cheap Flight Suggester, that suggests you weekend trips based on the cheapest deals it finds using SkyScanner.",
   "main": "lib/index.js",
   "bin": {
     "yolo-tips": "./bin/cli.js"
   },
   "scripts": {
-    "test": "standard",
-    "start": "node bin/cli.js"
+    "lint": "standard --verbose | snazzy"
   },
   "author": "Francisco Dias <francisco@baiodias.com> (http://franciscodias.net/)",
   "license": "MIT",
@@ -30,6 +29,8 @@
     "skyscanner": "xicombd/node-skyscanner"
   },
   "devDependencies": {
+    "pre-commit": "^1.1.1",
+    "snazzy": "^2.0.1",
     "standard": "^5.2.2"
   },
   "engines": {
@@ -50,5 +51,8 @@
   "bugs": {
     "url": "https://github.com/xicombd/yolo-tips/issues"
   },
-  "homepage": "https://github.com/xicombd/yolo-tips"
+  "homepage": "https://github.com/xicombd/yolo-tips",
+  "pre-commit": [
+    "lint"
+  ]
 }
