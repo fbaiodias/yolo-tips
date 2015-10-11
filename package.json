@@ -7,7 +7,9 @@
     "yolo-tips": "./bin/cli.js"
   },
   "scripts": {
-    "lint": "standard --verbose | snazzy"
+    "lint": "standard --verbose | snazzy",
+    "test": "mocha",
+    "start": "node bin/cli.js"
   },
   "author": "Francisco Dias <francisco@baiodias.com> (http://franciscodias.net/)",
   "license": "MIT",
@@ -25,8 +27,10 @@
     "lodash.pluck": "^3.1.2",
     "lodash.range": "^3.0.1",
     "lodash.sortby": "^3.1.5",
+    "mocha": "^2.3.3",
     "moment": "^2.9.0",
-    "skyscanner": "xicombd/node-skyscanner"
+    "skyscanner": "xicombd/node-skyscanner",
+    "sinon": "^1.17.1"
   },
   "devDependencies": {
     "pre-commit": "^1.1.1",
